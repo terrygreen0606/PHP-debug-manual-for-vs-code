@@ -21,7 +21,7 @@
 
     "php.validate.executablePath": "c:\\xampp\\php\\php.exe" (You have to put double slashes in the path)
 
-8. Install PHP debug extension.
+8. Install PHP debug extension. (Go to extensions tab in vs-code)
 
 9. Add the following content to launch.json in vs code.
 
