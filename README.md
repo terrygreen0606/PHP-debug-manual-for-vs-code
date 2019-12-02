@@ -33,6 +33,7 @@
     "configurations": 
     
     [
+    
         {
         
             "name": "Listen for XDebug",
