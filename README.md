@@ -11,8 +11,11 @@
 5. Add the following content to php.ini file
 
     [XDebug]
+    
     xdebug.remote_enable=1
+    
     xdebug.remote_autostart=1
+    
     zend_extension = "C:\xampp\php\ext\php_xdebug-2.7.2-7.3-vc15-x86_64 .dll"
 
 6. Restart Apache service.
@@ -26,20 +29,37 @@
 9. Add the following content to launch.json in vs code.
 
     "version": "0.2.0",
+    
     "configurations": [
+    
         {
+        
             "name": "Listen for XDebug",
+            
             "type": "php",
+            
             "request": "launch",
+            
             "port": 9000
+            
         },
+        
         {
             "name": "Launch currently open script",
+            
             "type": "php",
+            
             "request": "launch",
+            
             "program": "${file}",
+            
             "cwd": "${fileDirname}",
+            
             "port": 9000
+            
         }
+        
 ]
+
+
 
