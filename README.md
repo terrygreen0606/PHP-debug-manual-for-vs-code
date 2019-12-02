@@ -30,8 +30,9 @@
 
     "version": "0.2.0",
     
-    "configurations": [
+    "configurations": 
     
+    [
         {
         
             "name": "Listen for XDebug",
@@ -57,9 +58,8 @@
             
             "port": 9000
             
-        }
-        
-]
+        }    
+    ]
 
 
 
