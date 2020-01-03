@@ -1,8 +1,8 @@
 # PHP-debug Manual for vs code.
 
-1. Install Xampp
+1. Install Xampp and copy PHP.info page.
 
-2. Go to https://xdebug.org/wizard and copy PHPinfo (of your local computer) content in the textarea.
+2. Go to https://xdebug.org/wizard and paste the PHPinfo (of your local computer) content in the textarea.
 
 3. Press the button analyze.
 
