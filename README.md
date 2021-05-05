@@ -26,41 +26,7 @@
 
 8. Install PHP debug extension. (Go to extensions tab in vs-code)
 
-9. Add the following content to launch.json in vs code.
-
-    "version": "0.2.0",
-    
-    "configurations": 
-    
-    [
-    
-        {
-        
-            "name": "Listen for XDebug",
-            
-            "type": "php",
-            
-            "request": "launch",
-            
-            "port": 9000
-            
-        },
-        
-        {
-            "name": "Launch currently open script",
-            
-            "type": "php",
-            
-            "request": "launch",
-            
-            "program": "${file}",
-            
-            "cwd": "${fileDirname}",
-            
-            "port": 9000
-            
-        }    
-    ]
+9. Add launch.json in vs code.
 
 
 ## Additional Points
