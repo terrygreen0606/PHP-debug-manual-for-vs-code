@@ -63,4 +63,10 @@
     ]
 
 
+## Additional Points
+Add this to ignore vendor files in launch.json
+"ignore": [
+    "**/vendor/**/*.php"
+]
+
 
